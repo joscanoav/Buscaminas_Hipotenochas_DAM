@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/dificultad" android:title="Dificultad" android:orderInCategory="100"
+        app:showAsAction="ifRoom">
+        <menu><!-- submenú -->
+            <item android:id="@+id/Facil" android:title="Fácil" android:orderInCategory="1"/>
+            <item android:id="@+id/Dificil" android:title="Difícil" android:orderInCategory="2"/>
+        </menu>
+    </item>
+    <item android:id="@+id/Salir" android:title="Salir" android:orderInCategory="1">
+    </item>
+    <item android:id="@+id/Creditos" android:title="Créditos" android:orderInCategory="1">
+    </item>
+
+</menu>
